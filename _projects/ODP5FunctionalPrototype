@@ -3,10 +3,25 @@ layout: project
 title: First Functional Prototype For Open Design Project
 description: 
 technologies: 
-image: /assets/images/old-radio.jpg
+image: /assets/images/odpfirstprototype.png
 images:
-  - /assets/images/actuatorpart1.png
-  - /assets/images/actuatorpart2.png
-  - /assets/images/actuatorpart3.png
+  - /assets/images/odpfirstprototype.png
+  - /assets/images/odp5sketch.png
+  - /assets/images/odp5aperture.png
+  - /assets/images/odp5assembly.png
+  - /assets/images/componentslistp1.png
+  - /assets/images/componentslistp2.png
 toc: true
 ---
+
+###Assembly
+Fit 2 cm of hose into the cyclone and apply hot glue around the edges of the cyclone to secure the two together and provide an air-tight seal
+Assemble the aperture according to the design manual
+Screw the aperture on the end of the nozzle
+Glue the other end of the nozzle into the cyclone inlet
+Create a stand using wooden beams
+Use three wood planks to make a U shape. The horizontal plank is 14 inches wide to match the width of a standard conveyor belt.
+Glue the vertical beams to the horizontal base and side of cyclone
+Attach clamps to the horizontal base
+Attach the collection bag to the outlet of the cyclone with glue/tape
+Clamp base to the side of the conveyor belt
