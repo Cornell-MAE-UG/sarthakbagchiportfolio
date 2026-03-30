@@ -4,9 +4,8 @@ title: Sarthak Bagchi - Portfolio
 permalink: /projects/
 ---
 
-## Projects
 
-### MAE 2150 Open Design Project Table of Contents
+## MAE 2150 Open Design Project Table of Contents
 
 {% for project in site.projects %}
 {% if project.toc == true %}
@@ -15,6 +14,8 @@ permalink: /projects/
 {% endfor %}
 
 ---
+
+## Other Projects
 
 <div class="gallery-container">
   <div class="project-gallery">
