@@ -1,0 +1,11 @@
+---
+layout: project
+title: First Functional Prototype For Open Design Project
+description: 
+technologies: 
+image:
+  - /assets/images/proj1.png
+  - /assets/images/proj2.png
+  - /assets/images/proj3.png
+toc: true
+---
