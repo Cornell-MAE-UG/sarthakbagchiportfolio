@@ -13,7 +13,7 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : Sarthak Bagchi
 description              : Sarthak Bagchi - Projects and CV 
-baseurl                  : "/fa25-portfolio-sarthakbagchi1" # Set this to your repo name 
+baseurl                  : "/sarthakbagchiportfolio" # Set this to your repo name 
 
 # Theme and Style
 theme: jekyll-theme-minimal
