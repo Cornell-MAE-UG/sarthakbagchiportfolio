@@ -7,10 +7,10 @@ layout: default
 
 <h1>{{ page.title }}</h1>
 
-{% if page.image %}
-  <div class="project-image">
-    {% for img in page.image %}
-      <img src="{{ img | relative_url }}" alt="Project image">
+{% if page.images %}
+  <div class="project-content">
+    {% for img in page.images %}
+      <img src="{{ img | relative_url }}" class="inline-image">
     {% endfor %}
   </div>
 {% endif %}

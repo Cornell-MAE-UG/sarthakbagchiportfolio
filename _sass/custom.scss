@@ -109,21 +109,10 @@ footer {
 }
 
 .inline-image {
-  max-width: 350px;
-  margin: 0px 25px 15px 25px;
-  vertical-align: top;
-
-  &-l {
-    @extend .inline-image;
-    float: left;
-    margin-left: 0;
-  }
-
-  &-r {
-    @extend .inline-image;
-    float: right;
-    margin-right: 0;
-  }
+  width: 300px;
+  float: right;        /* THIS is the key */
+  margin: 0px 0px 15px 20px;
+  border-radius: 8px;
 }
 
 .profile-image, .project-image {
@@ -193,4 +182,8 @@ footer {
   transform: translateX(-4px);
 }
 
-
+.project-content::after {
+  content: "";
+  display: block;
+  clear: both;
+}

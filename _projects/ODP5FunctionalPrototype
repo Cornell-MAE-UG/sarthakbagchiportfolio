@@ -3,9 +3,10 @@ layout: project
 title: First Functional Prototype For Open Design Project
 description: 
 technologies: 
-image:
-  - /assets/images/proj1.png
-  - /assets/images/proj2.png
-  - /assets/images/proj3.png
+image: /assets/images/old-radio.jpg
+images:
+  - /assets/images/actuatorpart1.png
+  - /assets/images/actuatorpart2.png
+  - /assets/images/actuatorpart3.png
 toc: true
 ---
