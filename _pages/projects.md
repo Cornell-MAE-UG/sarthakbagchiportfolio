@@ -5,7 +5,7 @@ permalink: /projects/
 ---
 
 
-## MAE 2150 Open Design Project Table of Contents
+## MAE 2250 Open Design Project Table of Contents
 
 {% for project in site.projects %}
 {% if project.toc == true %}
