@@ -11,7 +11,7 @@ images:
   - /assets/images/odp5assembly.png
   - /assets/images/componentslistp1.png
   - /assets/images/componentslistp2.png
-toc: true
+toc: True
 ---
 
 This prototype acts as our first concept to tackling the issue with spotted lanternflies found in grape collection bins. The purpose of this device is to sit above conveyor belts and suck up any materials other than grapes that pass by. The suction power on the nozzle can be tweaked to ensure that no grapes get captured and the materials that do get captured are spun in a cylone, down into a collection bag.

@@ -5,17 +5,9 @@ permalink: /projects/
 ---
 
 
-## MAE 2250 Open Design Project Table of Contents
 
-{% for project in site.projects %}
-{% if project.toc == true %}
-- [{{ project.title }}]({{ project.url | relative_url }})
-{% endif %}
-{% endfor %}
 
----
-
-## Other Projects
+## Projects
 
 <div class="gallery-container">
   <div class="project-gallery">
