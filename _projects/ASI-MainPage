@@ -8,7 +8,7 @@ toc: False
 ---
 
 
-Technologies and skills used: Autodesk Fusion, NASA CEA, ANSYS Mechanical, ANSYS Fluent, Lathe & Mill
+**Technologies and Skills Used**: Autodesk Fusion, NASA CEA, ANSYS Mechanical, ANSYS Fluent, Lathe & Mill
 
 I am designing an augmented spark igniter (ASI), a miniature rocket engine used to ignite a larger rocket engine using liquid bipropellants. The ASI needs to ignite a pressure-fed liquid bipropellant engine operating at a chamber pressure of 600 psi. This is a high pressure environment, which is a more challenging situation for designing this ASI.
 
