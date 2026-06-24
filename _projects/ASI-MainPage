@@ -12,13 +12,18 @@ toc: False
 
 I am designing an augmented spark igniter (ASI), a miniature rocket engine used to ignite a larger rocket engine using liquid bipropellants. The ASI needs to ignite a pressure-fed liquid bipropellant engine operating at a chamber pressure of 600 psi. This is a high pressure environment, which is a more challenging situation for designing this ASI.
 
+<figure class="figure-block">
+  <img src="/assets/images/old-radio.jpg" alt="Throat temperature distribution from Ansys steady-state thermal analysis">
+  <figcaption>Figure 1: Throat region reaches peak temperature of 782°C at 5 seconds of firing.</figcaption>
+</figure>
+
 Problem Statement: Design a liquid bipropellant ASI capable of producing a high temperature and reliable flame into a 600 psi rocket engine chamber. 
 
 Conditions & Constraints:
 - Thrust: 10 N
 - O/F Ratio: 2
 - Temperature of flame produced: >900 K
-- This value is above the autoignition temperature for the combination of fuel and oxidizer
+    - This value is above the autoignition temperature for the combination of fuel and oxidizer
 - Fuel: Ethanol
 - Oxidizer: Nitrous Oxide
 - Exit Environment Pressure: 600 psi
@@ -26,5 +31,5 @@ Conditions & Constraints:
 - Material: AISI 1018 steel
 - Able to be machined with standard lathe and mill and assembled with basic tools
 
-
+Explore each stage of the design process using the links below.
 

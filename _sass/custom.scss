@@ -187,3 +187,24 @@ footer {
   display: block;
   clear: both;
 }
+
+.figure-block {
+  display: block;
+  margin: 25px auto;
+  text-align: center;
+  max-width: 500px;
+}
+
+.figure-block img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.figure-block figcaption {
+  margin-top: 8px;
+  font-size: 0.85em;
+  color: #777;
+  font-style: italic;
+  text-align: center;
+}
