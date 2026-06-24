@@ -13,7 +13,7 @@ toc: False
 I am designing an augmented spark igniter (ASI), a miniature rocket engine used to ignite a larger rocket engine using liquid bipropellants. The ASI needs to ignite a pressure-fed liquid bipropellant engine operating at a chamber pressure of 600 psi. This is a high pressure environment, which is a more challenging situation for designing this ASI.
 
 <figure class="figure-block">
-  <img src="/assets/images/old-radio.jpg" alt="Throat temperature distribution from Ansys steady-state thermal analysis">
+  <img src="/sarthakbagchiportfolio/assets/images/old-radio.jpg" alt="Throat temperature distribution from Ansys steady-state thermal analysis">
   <figcaption>Figure 1: Throat region reaches peak temperature of 782°C at 5 seconds of firing.</figcaption>
 </figure>
 
