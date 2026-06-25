@@ -13,6 +13,7 @@ toc: False
 I designed an augmented spark igniter (ASI), a miniature rocket engine used to ignite a larger rocket engine using liquid bipropellants. The ASI was designed to ignite a pressure-fed liquid bipropellant engine operating at a chamber pressure of 600 psi. This is a high pressure environment, which was a challenging situation when designing this ASI. I modeled the ASI in ANSYS to examine its thermal and structural properties. I also modeled the nozzle flow using ANSYS Fluent. I am currently machining and assembling the ASI. 
 
 <div class="figure-row">
+
   <figure class="figure-block">
     <img src="{{ '/assets/images/ASI-Full.jpg' | relative_url }}" alt="ASI CAD">
     <figcaption>ASI CAD</figcaption>
@@ -22,6 +23,7 @@ I designed an augmented spark igniter (ASI), a miniature rocket engine used to i
     <img src="{{ '/assets/images/ASI-CrossSec.jpg' | relative_url }}" alt="ASI Cross-Section">
     <figcaption>ASI Cross-Section</figcaption>
   </figure>
+
 </div>
 
 Problem Statement: Design a liquid bipropellant ASI capable of producing a high temperature and reliable flame into a 600 psi rocket engine chamber. 
@@ -40,3 +42,4 @@ Conditions & Constraints:
 
 **Explore each stage of the design process using the links below.**
 
+[1. Chamber and Nozzle Sizing]({{ "/projects/ASI-Chamber" | relative_url }})  
