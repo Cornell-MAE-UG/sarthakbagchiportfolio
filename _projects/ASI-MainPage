@@ -14,12 +14,12 @@ I designed an augmented spark igniter (ASI), a miniature rocket engine used to i
 
 <div class="figure-row">
   <figure class="figure-block">
-    <img src="{{ '/sarthakbagchiportfolio/assets/images/ASI-Full.jpg' | relative_url }}" alt="ASI CAD">
+    <img src="{{ '/assets/images/ASI-Full.jpg' | relative_url }}" alt="ASI CAD">
     <figcaption>ASI CAD</figcaption>
   </figure>
 
   <figure class="figure-block">
-    <img src="{{ '/sarthakbagchiportfolio/assets/images/ASI-CrossSec.jpg' | relative_url }}" alt="ASI Cross-Section">
+    <img src="{{ '/assets/images/ASI-CrossSec.jpg' | relative_url }}" alt="ASI Cross-Section">
     <figcaption>ASI Cross-Section</figcaption>
   </figure>
 </div>
