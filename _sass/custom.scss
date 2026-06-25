@@ -208,3 +208,18 @@ footer {
   font-style: italic;
   text-align: center;
 }
+
+
+.figure-row {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 25px 0;
+}
+
+.figure-row .figure-block {
+  flex: 1;
+  max-width: 450px;
+  margin: 0;
+}
