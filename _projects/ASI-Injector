@@ -9,7 +9,7 @@ toc: True
 
 For the injector, I wanted a simple design that didn't require tight tolerances and could be machined with the basic drill bits I have available. Since this ASI doesn't need to be the most efficient, I ruled out impinging and pintle injectors in favor of a coaxial shear injector instead.
 
-Oxidizer flows through a central needle tube while fuel flows through the surrounding concentric annulus. As the two propellants meet, the velocity difference between them creates shear forces that break the liquids into fine droplets, enabling stable combustion. This design only requires me to drill a chamber and channel for the fuel, then install a McMaster syringe needle centered in that channel to carry the oxidizer.
+Oxidizer flows through a central needle tube while fuel flows through the surrounding concentric annulus. As the two propellants meet, the velocity difference between them creates shear forces that break the liquids into fine droplets, enabling stable combustion. This design only requires me to drill a chamber and channel for the fuel, then install a McMaster syringe needle centered in that channel to carry the oxidizer. The calculations for the area of these orifices is below.
 
 <figure class="figure-block">
     <img src="{{ '/assets/images/ASI-Injector.jpg' | relative_url }}" alt="ASI Injector Profile">
@@ -20,7 +20,7 @@ Oxidizer flows through a central needle tube while fuel flows through the surrou
     <figcaption>Close-up of Orifice</figcaption>
   </figure>
 
-### Orifice Sizing
+**Orifice Sizing Calculations**
 
 <figure class="figure-block">
     <img src="{{ '/assets/images/ASI-OrificeSizeCalcs.jpg' | relative_url }}" alt="Orifice Area Calculations">
