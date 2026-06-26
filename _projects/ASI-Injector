@@ -1,0 +1,44 @@
+---
+layout: project
+title: Injector Design
+description: 
+technologies: Autodesk Fusion
+image: 
+toc: True
+---
+
+
+For the injector, I wanted a simple design that didn't require tight tolerances and could be machined with the basic drill bits I have available. Since this ASI doesn't need to be the most efficient, I ruled out impinging and pintle injectors in favor of a coaxial shear injector instead.
+
+Oxidizer flows through a central needle tube while fuel flows through the surrounding concentric annulus. As the two propellants meet, the velocity difference between them creates shear forces that break the liquids into fine droplets, enabling stable combustion. This design only requires me to drill a chamber and channel for the fuel, then install a McMaster syringe needle centered in that channel to carry the oxidizer.
+
+<figure class="figure-block">
+    <img src="{{ '/assets/images/ASI-Injector.jpg' | relative_url }}" alt="ASI Injector Profile">
+    <figcaption>ASI Injector Profile</figcaption>
+  </figure>
+
+### Injector Orifice Sizing
+
+The injector orifice area required for each propellant is given by:
+
+$$A = \frac{\dot{m}}{C_d \sqrt{2 \rho \Delta P}}$$
+
+**Known values:**
+
+$$\dot{m}(\mathrm{N_2O}) = 0.01339\,\mathrm{kg/s}$$
+
+$$\dot{m}(\mathrm{Ethanol}) = 0.00669\,\mathrm{kg/s}$$
+
+$$C_d = 0.7$$
+
+$$\rho(\mathrm{N_2O}\ \text{at room temperature}) = 745\,\mathrm{kg/m^3}$$
+
+$$\rho(\mathrm{Ethanol}\ \text{at room temperature}) = 789\,\mathrm{kg/m^3}$$
+
+$$\Delta P = 1000\,\mathrm{psi} - 700\,\mathrm{psi} = 2.068 \times 10^6\,\mathrm{Pa}$$
+
+**Results:**
+
+$$A(\mathrm{N_2O}) = 3.446 \times 10^{-7}\,\mathrm{m^2} \rightarrow 0.664\,\mathrm{mm}\ \text{diameter}$$
+
+$$A(\mathrm{Ethanol}) = 1.673 \times 10^{-7}\,\mathrm{m^2} \rightarrow 0.460\,\mathrm{mm}\ \text{diameter}$$

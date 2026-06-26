@@ -42,4 +42,6 @@ Conditions & Constraints:
 
 **Explore each stage of the design process using the links below.**
 
-[1. Chamber and Nozzle Sizing]({{ "/projects/ASI-Chamber" | relative_url }})  
+[1. Chamber and Nozzle Sizing]({{ "/projects/ASI-Chamber" | relative_url }})
+
+[2. Injector Design]({{ "/projects/ASI-Injector" | relative_url }})
