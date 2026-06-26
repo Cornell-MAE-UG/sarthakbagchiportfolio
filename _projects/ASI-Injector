@@ -17,7 +17,7 @@ Oxidizer flows through a central needle tube while fuel flows through the surrou
     <figcaption>ASI Injector Profile</figcaption>
   </figure>
 
-### Injector Orifice Sizing
+### Orifice Sizing
 
 The injector orifice area required for each propellant is given by:
 
@@ -42,3 +42,4 @@ $$\Delta P = 1000\,\mathrm{psi} - 700\,\mathrm{psi} = 2.068 \times 10^6\,\mathrm
 $$A(\mathrm{N_2O}) = 3.446 \times 10^{-7}\,\mathrm{m^2} \rightarrow 0.664\,\mathrm{mm}\ \text{diameter}$$
 
 $$A(\mathrm{Ethanol}) = 1.673 \times 10^{-7}\,\mathrm{m^2} \rightarrow 0.460\,\mathrm{mm}\ \text{diameter}$$
+
