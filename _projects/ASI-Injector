@@ -1,3 +1,9 @@
+Test equation below:
+
+$$x = y + z$$
+
+End test.
+
 ---
 layout: project
 title: Injector Design
@@ -14,6 +20,10 @@ Oxidizer flows through a central needle tube while fuel flows through the surrou
 
 <figure class="figure-block">
     <img src="{{ '/assets/images/ASI-Injector.jpg' | relative_url }}" alt="ASI Injector Profile">
+    <figcaption>ASI Injector Profile</figcaption>
+  </figure>
+<figure class="figure-block">
+    <img src="{{ '/assets/images/ASI-InjectorZoomIn.jpg' | relative_url }}" alt="ASI Injector Profile">
     <figcaption>ASI Injector Profile</figcaption>
   </figure>
 
