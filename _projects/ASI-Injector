@@ -1,9 +1,3 @@
-Test equation below:
-
-$$x = y + z$$
-
-End test.
-
 ---
 layout: project
 title: Injector Design
@@ -12,6 +6,12 @@ technologies: Autodesk Fusion
 image: 
 toc: True
 ---
+
+Test equation below:
+
+$$x = y + z$$
+
+End test.
 
 
 For the injector, I wanted a simple design that didn't require tight tolerances and could be machined with the basic drill bits I have available. Since this ASI doesn't need to be the most efficient, I ruled out impinging and pintle injectors in favor of a coaxial shear injector instead.
