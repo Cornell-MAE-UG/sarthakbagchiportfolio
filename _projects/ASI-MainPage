@@ -45,3 +45,5 @@ Conditions & Constraints:
 [1. Chamber and Nozzle Sizing]({{ "/projects/ASI-Chamber" | relative_url }})
 
 [2. Injector Design]({{ "/projects/ASI-Injector" | relative_url }})
+
+[x. Nozzle and Injector CFD Analysis in Fluent]({{ "/_projects/ASI-NozzleandInjectorAnalysis" | relative_url }})

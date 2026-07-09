@@ -1,0 +1,51 @@
+---
+layout: project
+title: Nozzle and Injector Analysis in ANSYS Fluent
+description: 
+technologies: ANSYS Fluent
+image: 
+toc: True
+---
+
+In ANSYS Fluent, I performed a compressible, turbulent flow CFD simualtion through the ASI nozzle in 2D to model the exhaust plume and how far it reaches. I want to ensure a reliable flame that is long enough and can consistently ingite the 600 psi main chamber. I used a density-based solver with the energy equation and k-epsilon turbulence model to capture the compressible, high-velocity flow behavior through the nozzle and into the exhaust plume.
+
+<div class="figure-row">
+
+  <figure class="figure-block">
+    <img src="{{ '/assets/images/ASI-NozzleFluentResults.jpg' | relative_url }}" alt="Nozzle Velocity Contour">
+    <figcaption>Nozzle Velocity Contour</figcaption>
+  </figure>
+
+  <figure class="figure-block">
+    <img src="{{ '/assets/images/ASI-NozzleFluentResults2.jpg' | relative_url }}" alt="Nozzle Temeperature Contour">
+    <figcaption>Nozzle Temeperature Contour</figcaption>
+  </figure>
+
+</div>
+
+The velocity contour shows the exhaust accelerating to a maximum of 531 m/s at the throat, with the high-velocity jet extending well into the downstream region, confirming the plume has sufficient reach to contact the main engine propellants. The temperature contour shows that the exhaust plume maintains temperatures well above the autoignition threshold of ethanol. These results confirmed that the basic nozzle geometry could be promising for igniting the main engine chamber.
+
+It is worth noting that this simulation modeled non-reacting flow, meaning no combustion was included and the inlet conditions were prescribed rather than computed from first principles. A reacting flow simulation would be the natural next step for higher fidelity validation of ignition performance.
+
+##Injector Analysis## 
+
+<figure class="figure-block">
+    <img src="{{ '/assets/images/ASI-InjectorFluent.jpg' | relative_url }}" alt="Mass Ratio of Ethanol Countour in Chambere">
+    <figcaption>Mass Ratio of Ethanol Countour in Chamber</figcaption>
+  </figure>
+
+I performed a 2D axisymmetric species transport CFD simulation of the coaxial shear injector to model the mixing behavior of the ethanol and nitrous oxide propellants. My goal was to confirm that the injector geometry produces sufficient mixing of the two propellants before they reach the combustion zone.  I used a pressure-based solver with the k-omega SST turbulence model, which is well suited for capturing the shear layer that develops between the high-velocity central N2O jet and the surrounding ethanol annulus.
+
+<figure class="figure-block">
+    <img src="{{ '/assets/images/ASI-InjectorFluentResults1.jpg' | relative_url }}" alt="Zoom-in of Injector Faces">
+    <figcaption>Zoom-in of Injector Faces</figcaption>
+  </figure>
+
+<figure class="figure-block">
+    <img src="{{ '/assets/images/ASI-InjectorFluentResults2.jpg' | relative_url }}" alt="Close-up of Orifice">
+    <figcaption>Mass Ratio of Ethanol Countour at Locations of Gas Movement</figcaption>
+  </figure>
+
+The first contour shows the interation the pure ethanol (red) has with the pure nitrous oxide (blue). The fluids mix immediately, atomize and spread across the entire chamber. The bulk mixture fraction reaches a value consistent with the design O/F ratio of 2 (1/3 ethanol, 2/3 nitrous oxide). The second contour filters out the locations in the chamber where the gas is stationary. It shows how the mixture plume develops and spreads downstream from the injector face, highlighting the active mixing region where the two propellants are interacting. The coaxial shear geometry is well suited for combustion in the ASI chamber.
+
+This simulation modeled single-phase mixing only.A multiphase mixture model is planned as a next step to more realistically capture liquid injection and atomization behavior.
