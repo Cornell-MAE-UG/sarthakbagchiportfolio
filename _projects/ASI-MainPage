@@ -46,4 +46,4 @@ Conditions & Constraints:
 
 [2. Injector Design]({{ "/projects/ASI-Injector" | relative_url }})
 
-[x. Nozzle and Injector CFD Analysis in Fluent]({{ "/_projects/ASI-NozzleandInjectorAnalysis" | relative_url }})
+[x. Nozzle and Injector CFD Analysis in Fluent]({{ "/projects/ASI-NozzleandInjectorAnalysis" | relative_url }})

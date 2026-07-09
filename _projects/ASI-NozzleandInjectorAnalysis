@@ -12,7 +12,7 @@ In ANSYS Fluent, I performed a compressible, turbulent flow CFD simualtion throu
 <div class="figure-row">
 
   <figure class="figure-block">
-    <img src="{{ '/assets/images/ASI-NozzleFluentResults.jpg' | relative_url }}" alt="Nozzle Velocity Contour">
+    <img src="{{ '/assets/images/ASI-NozzleFluentResults1.jpg' | relative_url }}" alt="Nozzle Velocity Contour">
     <figcaption>Nozzle Velocity Contour</figcaption>
   </figure>
 
@@ -27,7 +27,7 @@ The velocity contour shows the exhaust accelerating to a maximum of 531 m/s at t
 
 It is worth noting that this simulation modeled non-reacting flow, meaning no combustion was included and the inlet conditions were prescribed rather than computed from first principles. A reacting flow simulation would be the natural next step for higher fidelity validation of ignition performance.
 
-##Injector Analysis## 
+## Injector Analysis ##
 
 <figure class="figure-block">
     <img src="{{ '/assets/images/ASI-InjectorFluent.jpg' | relative_url }}" alt="Mass Ratio of Ethanol Countour in Chambere">
@@ -37,8 +37,8 @@ It is worth noting that this simulation modeled non-reacting flow, meaning no co
 I performed a 2D axisymmetric species transport CFD simulation of the coaxial shear injector to model the mixing behavior of the ethanol and nitrous oxide propellants. My goal was to confirm that the injector geometry produces sufficient mixing of the two propellants before they reach the combustion zone.  I used a pressure-based solver with the k-omega SST turbulence model, which is well suited for capturing the shear layer that develops between the high-velocity central N2O jet and the surrounding ethanol annulus.
 
 <figure class="figure-block">
-    <img src="{{ '/assets/images/ASI-InjectorFluentResults1.jpg' | relative_url }}" alt="Zoom-in of Injector Faces">
-    <figcaption>Zoom-in of Injector Faces</figcaption>
+    <img src="{{ '/assets/images/ASI-InjectorFluentResults1.jpg' | relative_url }}" alt="Zoom-in at Injector Orifices">
+    <figcaption>Zoom-in at Injector Orifices</figcaption>
   </figure>
 
 <figure class="figure-block">
