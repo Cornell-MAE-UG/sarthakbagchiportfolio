@@ -1,0 +1,27 @@
+---
+layout: project
+title: Plumbing and Bill of Materials
+description: 
+technologies: 
+image: 
+toc: True
+---
+
+
+<figure class="figure-block">
+    <img src="{{ '/assets/images/ASI-Plumbing1.jpg' | relative_url }}" alt="ASI Plumbing Diagram">
+    <figcaption>ASI Plumbing Diagram</figcaption>
+  </figure>
+
+Each fluid branches off from the main line where it passes through a hose that is connected to a solenoid, which acts as the run valve. From here an NPT reducer connects the oxidizer solenoid to the back of the ASI while the fuel solenoid is connected to the side of the ASI. A vent valve is not required since the ASI can be vented through the nozzle. In this design, there are not many areas of pressure changes to worry about. 
+
+The oxidizer port is connected to a block in the back of the ASI (green) which the injector needle is directrly threaded onto. This block is connected to the injector via screws and sealed with o-rings. I could have made these one piece to not worry about leaks, but realized that I valued easy manufacturability more. The fuel port connects to a small chamber that surrounds the needle. This section of the ASI connects to the chamber via screws and seals with o-rings.
+
+## Bill of Materials ##
+
+<figure class="figure-block">
+    <img src="{{ '/assets/images/ASI-BOM.jpg' | relative_url }}" alt="ASI BOM">
+    <figcaption></figcaption>
+  </figure>
+
+The ASI was designed to be highly cost-effective, with the total cost of components and materials remaining well below the budget allocated by the Cornell Liquid Propulsion team.
