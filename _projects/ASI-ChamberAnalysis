@@ -1,0 +1,20 @@
+---
+layout: project
+title: Chamber Thermal and Structural Analyses
+description: 
+technologies: ANSYS Mechanical
+image: 
+toc: True
+---
+
+I performed a steady-state thermal analysis and a structural analysis in ANSYS to determine if the ASI's chamber walls could survive the combined thermal and pressure loading. 
+
+<figure class="figure-block">
+    <img src="{{ '/assets/images/ASI-ChamberTemp.jpg' | relative_url }}" alt="Temperature Gradient in Celcius">
+    <figcaption>Temperature Gradient in Celcius</figcaption>
+  </figure>
+
+I first used the [Bartz correlation](https://arc.aiaa.org/doi/10.2514/8.12572) to calculate the convective heat transfer coefficients at the chamber throat and exit. I applied convection boundary conditions in my ANSYS model, ran it for 3 seconds and generated a basic temperature gradient seen above. Convection is the driving factor of the max temperature and 707 degrees celcius is well below the melting point of 1018 steel. 
+
+Then, I performed a static structural analysis using the thermal results as inputs, with 700 psi internal pressure applied to the chamber walls. The simulation produced extreme stress concentrations near the throat region that are likely due to geometric singularities and mesh sensitivity, so a hand calculation using thick-walled pressure vessel theory was used to estimate the hoop stress and factor of safety analytically. Using [Lamé’s equation](https://courses.washington.edu/me354a/Thick%20Walled%20Cylinders.pdf), I calculated the hoop stress in the chamber to be 8.80 MPa and the hoop stress at the throat to be 2.73 MPa. Considering 1018 steel's yield strength to be 370 MPa, the factor of safety's calculated was 42 and 135.5, respectively. These FOS's are very high, which reassures me that the chamber is very safe from a pressure standpoint.
+

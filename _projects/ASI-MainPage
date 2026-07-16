@@ -46,6 +46,8 @@ Conditions & Constraints:
 
 [2. Injector Design]({{ "/projects/ASI-Injector" | relative_url }})
 
-[3. Nozzle and Injector CFD Analysis in Fluent]({{ "/projects/ASI-NozzleandInjectorAnalysis" | relative_url }})
+[3. Chamber Thermal and Structural Analyses]({{ "/projects/ASI-ChamberAnalysis" | relative_url }})
 
-[4. Plumbing and Bill of Materials]({{ "/projects/ASI-PlumbingBOM" | relative_url }})
+[4. Nozzle and Injector CFD Analyses in Fluent]({{ "/projects/ASI-NozzleandInjectorAnalysis" | relative_url }})
+
+[5. Plumbing and Bill of Materials]({{ "/projects/ASI-PlumbingBOM" | relative_url }})
