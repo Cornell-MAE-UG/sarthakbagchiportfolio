@@ -7,7 +7,24 @@ image:
 toc: True
 ---
 
-For the injector, I wanted a simple design that didn't require tight tolerances and could be machined with the basic drill bits I have available. Since this ASI doesn't need to be the most efficient, I ruled out impinging and pintle injectors in favor of a coaxial shear injector instead.
+To choose the ASI's injector, I used a weighted trade matrix to compare four injector designs against four criteria important to this ASI's purpose. Below, I explain each criterion and justify each injector's score.
+
+**Manufacturability/Cost of Tools** captures how difficult each injector pattern is to machine at this scale, including tolerance requirements and the tooling needed to produce it reliably. Coaxial shear scored highest because a single concentric tube-in-annulus element requires no precision alignment between multiple orifices, making it the simplest geometry to produce. Showerhead scored moderately, since drilled straight holes are conceptually simple but requires an expensive drill bit to make the miniscule and precise orifices. Coaxial swirl and impinging both scored lowest. Swirl requires machining tangential entry slots or ports into a swirl chamber, and impinging requires precisely aligning multiple sub-millimeter orifices so the jets actually intersect.
+
+**Ignition/Flame-Holding Reliability** evaluates how well each injector type establishes and sustains a stable flame kernel near the spark source. Showerhead scored lowest because straight parallel jets generate relatively large droplets and uneven spray distributions with no forced mixing point [1]. Coaxial shear scored moderately on the reasoning that atomization depends on a velocity differential between streams, which tends to be weak at low thrust flow rates and produces a less well-defined local mixing zone than swirl or impinging. Coaxial swirl scored second, since swirl coaxial sprays produce smaller droplet sizes than shear coaxial sprays, which is associated with increased local mixing that supports ignition [2,3]. Impinging atomization happens at one fixed point, giving the spark a precise, repeatable location to catch while swirl atomization happens along a spreading conical sheet, so the fine mixing region is smeared out over some area downstream of the injector face. Hence, the impinging injector is scored the highest [4].
+
+**Robustness to Manufacturing** measures how sensitive each injector's performance is to small manufacturing defects or misalignments, since sub-millimeter tolerances at this scale are hard to guarantee. Coaxial swirl scored highest because its tangential-inlet design can use a larger port size than precision-impingement designs, reducing tolerance requirements and post-processing sensitivity [5]. Showerhead scored second, since straight-drilled holes have no alignment dependency between streams, making them inherently forgiving to manufacture [1]. Coaxial shear scored moderately on the reasoning that its annular gap geometry should tolerate minor eccentricity better than a two-jet alignment requirement. Impinging scored lowest because it is explicitly identified as highly sensitive to geometric parameters and alignment, with design remaining difficult due to the absence of reliable predictive methodologies [1].
+
+**Off-Nominal Forgiveness to O/F Ratio** assesses how well each injector maintains performance as mixture ratio drifts off-design, which matters here because NOS is self-pressurizing and its vapor pressure shifts with ambient temperature. Coaxial swirl scored highest, since AFRL testing explicitly operated swirl coaxial elements across several different mixture ratios to characterize off-design performance, and separate testing found spray cone angles were largely unaffected by mass flow rate variation [2]. Coaxial shear scored moderately; this score is a placeholder based on general reasoning. Impinging and showerhead both scored lowest. Impinging's score follows from its alignment sensitivity, since impingement angle and momentum ratio are tuned for a design flow rate, so a flow shift plausibly moves the impingement point off its intended target [1]. Showerhead's score is inferred, as no forced mixing mechanism gives little basis to expect graceful off-design behavior. 
+
+I identified the **coaxial shear injector** as the strongest option.
+
+<figure class="figure-block">
+    <img src="{{ '/assets/images/ASI-InjectorTradeStudy.jpg' | relative_url }}" alt="Injector Trade Study Table">
+    <figcaption>Injector Trade Study Table</figcaption>
+  </figure>
+
+
 
 Oxidizer flows through a central needle tube while fuel flows through the surrounding concentric annulus. As the two propellants meet, the velocity difference between them creates shear forces that break the liquids into fine droplets, enabling stable combustion. This design only requires me to drill a chamber and channel for the fuel, then install a McMaster syringe needle centered in that channel to carry the oxidizer. The calculations for the area of these orifices is below.
 
@@ -26,4 +43,16 @@ Oxidizer flows through a central needle tube while fuel flows through the surrou
     <img src="{{ '/assets/images/ASI-OrificeSizeCalcs.jpg' | relative_url }}" alt="Orifice Area Calculations">
     <figcaption></figcaption>
   </figure>
+
+### Sources ###
+
+[1. A Comprehensive Review of Liquid-Injector Technologies for Space Propulsion, Technologies, 2026](https://www.mdpi.com/2227-7080/14/5/285)
+
+[2. Swirl Coaxial Injector Development](https://apps.dtic.mil/sti/pdfs/ADA410862.pdf)
+
+[3. Effect of Swirl on Gas-Centered Swirl-Coaxial Injectors](https://apps.dtic.mil/sti/tr/pdf/ADA548598.pdf)
+
+[4. Compact Augmented Spark Igniters for Liquid Rocket Engines](https://ntrs.nasa.gov/api/citations/20210000596/downloads/Tinker-Dissertation.pdf)
+
+[5. The Design and Validation Process of a Coaxial Swirl Injector Plate for Bipropellant Liquid Rocket](https://arc.aiaa.org/doi/10.2514/6.2024-86209)
 
