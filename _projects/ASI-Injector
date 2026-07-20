@@ -24,7 +24,7 @@ I identified the **coaxial shear injector** as the strongest option.
     <figcaption>Injector Trade Study Table</figcaption>
   </figure>
 
-
+## Design ##
 
 Oxidizer flows through a central needle tube while fuel flows through the surrounding concentric annulus. As the two propellants meet, the velocity difference between them creates shear forces that break the liquids into fine droplets, enabling stable combustion. This design only requires me to drill a chamber and channel for the fuel, then install a McMaster syringe needle centered in that channel to carry the oxidizer. The calculations for the area of these orifices is below.
 
