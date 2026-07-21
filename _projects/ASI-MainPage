@@ -37,7 +37,7 @@ Conditions & Constraints:
 - Oxidizer: Nitrous Oxide
 - Exit Environment Pressure: 600 psi
 - Maximum dimensions: 5” x 5” x 6”
-- Material: AISI 1018 steel
+- Material: AISI 1018 steel [(Click here for trade study)]({{ "/projects/ASI-MaterialSelection" | relative_url }})
 - Able to be machined with standard lathe and mill and assembled with basic tools
 
 **Explore each stage of the design process using the links below.**

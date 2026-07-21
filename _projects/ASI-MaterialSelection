@@ -1,0 +1,18 @@
+---
+layout: project
+title: 
+description: 
+technologies: 
+image: 
+toc: True
+---
+
+To choose the ASI’s material, specifically at the chamber & nozzle, I used a weighted trade matrix to compare four materials against five criteria.
+
+The selected **AISI 1018 Low-Carbon Steel** as the best material for this application.
+
+<figure class="figure-block">
+    <img src="{{ '/assets/images/ASI-MaterialTradeStudy.jpg' | relative_url }}" alt="Material Trade Study Table">
+    <figcaption>Material Trade Study Table</figcaption>
+  </figure>
+
