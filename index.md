@@ -34,7 +34,7 @@ I am a third year mechanical engineering student, currently interested in propul
 
 <hr class="section-divider">
 
-## Portfolio
+## Portfoli
 
 <div class="index-nav-grid">
   <a href="{{ '/projects/' | relative_url }}" class="index-nav-card">
