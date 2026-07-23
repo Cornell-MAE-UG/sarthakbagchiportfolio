@@ -1,13 +1,13 @@
 ---
 layout: project
-title: Nozzle and Injector Analysis in ANSYS Fluent
+title: Nozzle and Injector Analyses in ANSYS Fluent
 description: 
 technologies: ANSYS Fluent
 image: 
 toc: True
 ---
 
-In ANSYS Fluent, I performed a compressible, turbulent flow CFD simualtion through the ASI nozzle in 2D to model the exhaust plume and how far it reaches. I want to ensure a reliable flame that is long enough and can consistently ingite the 600 psi main chamber. I used a density-based solver with the energy equation and k-epsilon turbulence model to capture the compressible, high-velocity flow behavior through the nozzle and into the exhaust plume.
+In ANSYS Fluent, I performed a compressible, turbulent flow CFD simualtion through the ASI nozzle in 2D to model the exhaust plume and how far it reaches. I want to ensure a reliable flame that is long enough and can consistently ingite the 600 psi main chamber. I used a density-based solver with the energy equation and k-epsilon turbulence model to capture the compressible and high-velocity flow behavior through the nozzle and into the exhaust plume.
 
 <div class="figure-row">
 

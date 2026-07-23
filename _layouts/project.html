@@ -24,6 +24,6 @@ layout: default
 
 <p><strong>Technologies and Skills Used</strong>: {{ page.technologies | join: ", " }}</p>
 
-<a href={{ "/projects/" | relative_url }} class="back-arrow">
-    <i class="bi bi-arrow-left-circle-fill"></i> Back to Projects
+<a href="{{ "/projects/" | relative_url }}" class="back-arrow" onclick="history.length > 1 ? history.back() : null; return history.length <= 1;">
+    <i class="bi bi-arrow-left-circle-fill"></i> Back
 </a>
