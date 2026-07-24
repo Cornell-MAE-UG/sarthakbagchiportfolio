@@ -40,7 +40,7 @@ I am a third year mechanical engineering student, currently interested in propul
   <a href="{{ '/projects/' | relative_url }}" class="index-nav-card">
     <span class="index-nav-title">Projects →</span>
   </a>
-  <a href="{{ '/assets/pdfs/SarthakBagchi_CV.pdf' | relative_url }}" target="_blank" rel="noopener" class="index-nav-card">
+  <a href="{{ '/assets/pdfs/ENGRD_2210_Portfolio_Assignment.pdf' | relative_url }}" target="_blank" rel="noopener" class="index-nav-card">
     <span class="index-nav-title">Resume →</span>
   </a>
 </div>
